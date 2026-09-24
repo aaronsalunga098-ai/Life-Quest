@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeQuest | Quests</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="nav-bar">
+    <div class="logo">⚔️ LifeQuest</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="quests.html">Quests</a>
+      <a href="habits.html">Habits</a>
+      <a href="rewards.html">Rewards</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="page-header">
+      <h1>Active Quests</h1>
+      <p>Complete your quests to earn XP and level up!</p>
+    </section>
+
+    <section class="card">
+      <h2>Add New Quest</h2>
+
+      <form id="quest-form">
+
+        <label for="quest-title">Quest Title</label>
+
+        <input
+          type="text"
+          id="quest-title"
+          placeholder="Enter quest title"
+          required
+        >
+
+        <label for="quest-category">Category</label>
+
+        <select id="quest-category">
+          <option value="School">School</option>
+          <option value="Health">Health</option>
+          <option value="Personal">Personal</option>
+          <option value="Chores">Chores</option>
+        </select>
+
+        <label for="quest-xp">XP Reward</label>
+
+        <select id="quest-xp">
+          <option value="25">25 XP</option>
+          <option value="50">50 XP</option>
+          <option value="75">75 XP</option>
+          <option value="100">100 XP</option>
+        </select>
+
+        <button type="submit" class="btn-primary">
+          Add Quest
+        </button>
+
+      </form>
+    </section>
+
+    <section class="card">
+
+      <div class="quest-header">
+        <h2>My Quests</h2>
+
+        <div class="quest-filters">
+
+          <button
+            type="button"
+            class="filter-btn active-filter"
+            data-filter="all">
+            All
+          </button>
+
+          <button
+            type="button"
+            class="filter-btn"
+            data-filter="active">
+            Active
+          </button>
+
+          <button
+            type="button"
+            class="filter-btn"
+            data-filter="completed">
+            Completed
+          </button>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+
+      <div id="quest-list">
+
+        <p id="no-quests">
+          You don't have any quests yet. Add your first quest above!
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Built for the finals project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

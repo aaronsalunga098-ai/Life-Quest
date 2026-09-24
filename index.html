@@ -3,24 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Final Project</title>
+  <title>LifeQuest | Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <h1>My Final Project</h1>
-    <p>Group members: (add your names here)</p>
+    <h1>⚔️ LifeQuest</h1>
+    <p>Group members: Aaron Salunga, Jan Francis Alfonso, and Joshua Maniego</p>
+
+    <nav class="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="quests.html">Quests</a>
+      <a href="habits.html">Habits</a>
+      <a href="rewards.html">Rewards</a>
+    </nav>
   </header>
 
   <main>
+
     <section>
-      <h2>Welcome</h2>
+      <h2>Welcome to LifeQuest!</h2>
       <p>
-        This is the starter page for your final project. Replace this content
-        with your own site. When you push to your repository and enable GitHub
-        Pages, this page goes live on the internet.
+        Turn your everyday tasks into quests, earn XP, build streaks,
+        and unlock achievements.
       </p>
     </section>
+
+    <section class="card">
+      <h2>Player Overview</h2>
+
+      <div class="player-info">
+        <div class="avatar">🧙</div>
+
+        <div>
+          <h3 id="player-level">Level 0</h3>
+          <p id="player-rank">Novice</p>
+        </div>
+      </div>
+
+      <div class="xp-section">
+        <p>
+          XP:
+          <span id="current-xp">0</span> /
+          <span id="next-level-xp">100</span>
+        </p>
+
+        <div class="progress-bar">
+          <div id="xp-progress" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <p>
+        🔥 Streak:
+        <strong id="streak-count">0</strong> days
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Top Priority Quests</h2>
+
+      <div id="home-quests">
+        <p id="no-home-quests">
+          No active quests yet. Start your first quest!
+        </p>
+      </div>
+
+      <a href="quests.html" class="btn-primary">
+        View All Quests
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>Recent Achievements</h2>
+
+      <div id="recent-achievements">
+        <p id="no-achievements">
+          Complete quests and habits to unlock achievements!
+        </p>
+      </div>
+    </section>
+
   </main>
 
   <footer>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeQuest | Habits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="nav-bar">
+    <div class="logo">⚔️ LifeQuest</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="quests.html">Quests</a>
+      <a href="habits.html">Habits</a>
+      <a href="rewards.html">Rewards</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="page-header">
+      <h1>Daily Habit Matrix</h1>
+      <p>Build good habits and keep your streak alive!</p>
+    </section>
+
+    <section class="card">
+
+      <h2>Add New Habit</h2>
+
+      <form id="habit-form">
+
+        <label for="habit-name">Habit Name</label>
+
+        <input
+          type="text"
+          id="habit-name"
+          placeholder="Example: Study for 30 minutes"
+          required
+        >
+
+        <button type="submit" class="btn-primary">
+          Add Habit
+        </button>
+
+      </form>
+
+    </section>
+
+    <section>
+
+      <div id="habit-list">
+
+        <p id="no-habits">
+          No habits yet. Add your first daily habit!
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Built for the finals project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
