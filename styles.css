@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #100d1c;
+}
+
+body {
+  background-color: #100d1c;
+  background-image:
+    radial-gradient(circle at 15% -5%, rgba(138, 107, 255, 0.20), transparent 40%),
+    radial-gradient(circle at 90% 10%, rgba(240, 185, 61, 0.14), transparent 35%),
+    radial-gradient(circle at 50% 100%, rgba(92, 63, 214, 0.10), transparent 45%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #f5f2fc;
+  font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+h1, h2, h3 {
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  color: #f0b93d;
+  letter-spacing: 0.3px;
+}
+
+p {
+  color: #f5f2fc;
+}
+
+a {
+  color: #f5f2fc;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   Nav bar
+   ========================================================================== */
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  background-color: #1a1630;
+  padding: 18px 36px;
+  border-bottom: 1px solid #453a72;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.logo {
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f0b93d;
+  text-shadow: 0 0 16px rgba(240, 185, 61, 0.5);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #a79fca;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 6px 2px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #f0b93d;
+  border-bottom-color: #f0b93d;
+}
+
+/* ==========================================================================
+   Hero header (home page only)
+   ========================================================================== */
+
+header {
+  text-align: center;
+  padding-bottom: 4px;
+  background: linear-gradient(180deg, rgba(138, 107, 255, 0.22), transparent 90%);
+  border-bottom: 1px solid rgba(69, 58, 114, 0.6);
+}
+
+header h1 {
+  font-size: 2.6rem;
+  padding: 48px 16px 12px;
+  text-shadow: 0 0 30px rgba(240, 185, 61, 0.4);
+}
+
+header > p {
+  color: #a79fca;
+  padding-bottom: 28px;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   Main layout
+   ========================================================================== */
+
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 36px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.page-header {
+  text-align: center;
+  padding: 16px 0 4px;
+}
+
+.page-header h1 {
+  font-size: 2.1rem;
+  text-shadow: 0 0 24px rgba(240, 185, 61, 0.3);
+}
+
+.page-header p {
+  color: #a79fca;
+  margin-top: 8px;
+}
+
+/* ==========================================================================
+   Cards
+   ========================================================================== */
+
+.card {
+  background-color: #1c1730;
+  border: 1px solid #453a72;
+  border-radius: 14px;
+  padding: 26px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+/* thin gold line across the very top of every card, like a game panel */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #f0b93d, #8a6bff);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+  padding-left: 14px;
+  border-left: 3px solid #8a6bff;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #a79fca;
+  margin-top: 4px;
+}
+
+input[type="text"],
+select {
+  background-color: #262040;
+  border: 1px solid #453a72;
+  border-radius: 9px;
+  color: #f5f2fc;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #7b74a0;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: #8a6bff;
+  box-shadow: 0 0 0 4px rgba(138, 107, 255, 0.25);
+}
+
+select {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #8a6bff;
+  background-image: linear-gradient(135deg, #9c81ff, #5c3fd6);
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  padding: 12px 22px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 8px;
+  box-shadow: 0 8px 20px rgba(92, 63, 214, 0.45);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(92, 63, 214, 0.55);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   Player overview (home page)
+   ========================================================================== */
+
+.player-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.avatar {
+  font-size: 2.6rem;
+  background-color: #262040;
+  background-image: radial-gradient(circle, #322a52, #1c1730);
+  border: 2px solid #f0b93d;
+  box-shadow: 0 0 22px rgba(240, 185, 61, 0.4);
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#player-level {
+  font-size: 1.35rem;
+}
+
+#player-rank {
+  color: #8a6bff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.xp-section {
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: #a79fca;
+}
+
+.xp-section span {
+  color: #f0b93d;
+  font-weight: 700;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 16px;
+  background-color: #262040;
+  border: 1px solid #453a72;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #f0b93d;
+  background-image: linear-gradient(90deg, #c99a3a, #f0b93d, #ffd875);
+  box-shadow: 0 0 12px rgba(240, 185, 61, 0.7);
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+#streak-count {
+  color: #f0b93d;
+  font-size: 1.05rem;
+}
+
+/* ==========================================================================
+   Quest list, filters, habit list
+   ========================================================================== */
+
+.quest-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.quest-filters {
+  display: flex;
+  gap: 8px;
+}
+
+.filter-btn {
+  background-color: #262040;
+  color: #a79fca;
+  border: 1px solid #453a72;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.filter-btn:hover {
+  color: #f5f2fc;
+  border-color: #8a6bff;
+}
+
+.filter-btn.active-filter {
+  background-color: #8a6bff;
+  background-image: linear-gradient(135deg, #9c81ff, #5c3fd6);
+  color: #ffffff;
+  border-color: #8a6bff;
+}
+
+/* individual quest / habit item cards, added dynamically via JS */
+.quest-item,
+.habit-item {
+  background-color: #211c3a;
+  border: 1px solid #453a72;
+  border-left: 5px solid #8a6bff;
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.quest-item:hover,
+.habit-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.quest-item.completed,
+.habit-item.completed {
+  border-left-color: #4ade80;
+  opacity: 0.6;
+}
+
+.tag {
+  display: inline-block;
+  background-color: rgba(138, 107, 255, 0.22);
+  color: #b6a4ff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.xp-badge {
+  display: inline-block;
+  background-color: rgba(240, 185, 61, 0.15);
+  color: #f0b93d;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+#no-quests,
+#no-habits,
+#no-home-quests,
+#no-achievements,
+#no-earned-badges {
+  color: #a79fca;
+  text-align: center;
+  padding: 14px 0;
+  font-style: italic;
+}
+
+/* ==========================================================================
+   Stats grid (rewards page)
+   ========================================================================== */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.stat-box {
+  background-color: #211c3a;
+  border: 1px solid #453a72;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px 8px;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-4px);
+  border-color: #f0b93d;
+}
+
+.stat-box h3 {
+  font-size: 1.6rem;
+  text-shadow: 0 0 14px rgba(240, 185, 61, 0.35);
+}
+
+.stat-box p {
+  color: #a79fca;
+  font-size: 0.8rem;
+  margin-top: 6px;
+}
+
+/* ==========================================================================
+   Badges
+   ========================================================================== */
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 18px;
+  margin-top: 14px;
+}
+
+.badge-card {
+  text-align: center;
+  transition: transform 0.15s ease;
+}
+
+.badge-icon {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.badge-card h3 {
+  font-size: 1rem;
+  color: #f5f2fc;
+}
+
+.badge-card p {
+  color: #a79fca;
+  font-size: 0.8rem;
+  margin-top: 6px;
+}
+
+/* locked badges stay dim and grayscale, earned badges glow gold */
+#locked-badges .badge-card {
+  opacity: 0.45;
+  filter: grayscale(70%);
+}
+
+#earned-badges .badge-card {
+  border-color: #f0b93d;
+  box-shadow: 0 0 24px rgba(240, 185, 61, 0.3);
+}
+
+#earned-badges .badge-card:hover {
+  transform: translateY(-5px);
+}
+
+/* plain section headings (Earned Badges / Locked Badges titles) */
+main > section > h2 {
+  font-size: 1.35rem;
+  padding-left: 14px;
+  border-left: 3px solid #f0b93d;
+  margin-bottom: 8px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+  text-align: center;
+  color: #a79fca;
+  font-size: 0.8rem;
+  padding: 40px 16px 10px;
+  border-top: 1px solid #453a72;
+  margin-top: 12px;
+}
+
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header h1,
+header > p {
+  animation: rise-in 0.6s ease both;
+}
+
+header > p {
+  animation-delay: 0.1s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  header h1,
+  header > p {
+    animation: none;
+  }
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 600px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+  }
+
+  .nav-links {
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    padding-top: 32px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quest-item,
+  .habit-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
