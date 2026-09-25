@@ -170,3 +170,98 @@ We identified the issue during the security review and documented it in the secu
 **Related commit:**
 [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
 
+# 3. Who Wrote What
+
+This section documents the main contributions of each group member. Each member will explain their own code and the AI-assisted part they understand best.
+
+## @aaronsalunga098-ai
+
+### Initial Project Setup
+
+**Files:** `.github/workflows/deploy-pages.yml`, `.nojekyll`, `README.md`, `index.html`, `script.js`, `style.css`
+
+**Commit:** [Initial commit - 0f0f3c8](https://github.com/aaronsalunga098-ai/Life-Quest/commit/0f0f3c89d7f590cea2cdd25e7354e031cc792241)
+
+I made the initial setup of the LifeQuest repository. This included creating the initial project files, README, basic HTML page, and the files needed for the website and GitHub Pages deployment.
+
+### `index.html`
+
+**Commit:** [Add LifeQuest HTML pages - 2357ff0](https://github.com/aaronsalunga098-ai/Life-Quest/commit/2357ff0d1c223ef4f09d2e0a60e85ae94fdafaf9)
+
+I wrote the HTML structure for the LifeQuest Home page. It contains the player overview, player level and rank, XP progress, streak, priority quests, and recent achievements.
+
+The original `index.html` structure was written by me during the initial project setup. I later used AI assistance to improve and expand parts of the page, but I reviewed the suggestions and adapted them to the project requirements.
+
+### `quests.html`
+
+**Commit:** [Add LifeQuest HTML pages - 2357ff0](https://github.com/aaronsalunga098-ai/Life-Quest/commit/2357ff0d1c223ef4f09d2e0a60e85ae94fdafaf9)
+
+I wrote the HTML structure for the Quests page. It contains the form for adding quests, category and XP selection, and filters for All, Active, and Completed quests.
+
+### `habits.html`
+
+**Commit:** [Add LifeQuest HTML pages - 2357ff0](https://github.com/aaronsalunga098-ai/Life-Quest/commit/2357ff0d1c223ef4f09d2e0a60e85ae94fdafaf9)
+
+I wrote the HTML structure for the Daily Habit Matrix. It contains the form for adding habits and the container where the user's habits are displayed.
+
+### `rewards.html`
+
+**Commit:** [Add LifeQuest HTML pages - 2357ff0](https://github.com/aaronsalunga098-ai/Life-Quest/commit/2357ff0d1c223ef4f09d2e0a60e85ae94fdafaf9)
+
+I wrote the HTML structure for the Reward Hall and Badges page. It contains player statistics, earned badges, and locked badges.
+
+### AI-Assisted Code I Understand
+
+**Files:** `index.html`, `quests.html`, `habits.html`, `rewards.html`
+
+**Commit:** [Add LifeQuest HTML pages - 2357ff0](https://github.com/aaronsalunga098-ai/Life-Quest/commit/2357ff0d1c223ef4f09d2e0a60e85ae94fdafaf9)
+
+One AI-assisted part of the project that I understand is the HTML structure connecting the pages to the JavaScript.
+
+I understand how IDs and containers such as `current-xp`, `player-level`, `streak-count`, and `quest-list` allow the JavaScript to find and update specific elements in the HTML.
+
+---
+
+## @FrancisAlfonso27
+
+### CSS and Visual Design
+
+**File:** `style.css`
+
+**Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
+
+### My Contribution
+
+<!-- Francis will write his own explanation here. -->
+
+### AI-Assisted Code I Understand
+
+<!-- Francis will write his own explanation here. -->
+
+---
+
+## @JoshuaManiego
+
+### JavaScript Functionality
+
+**File:** `script.js`
+
+**Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
+
+### My Contribution
+
+<!-- Joshua will write his own explanation here. -->
+
+### AI-Assisted Code I Understand
+
+<!-- Joshua will write his own explanation here. -->
+
+---
+
+## Division of Work Summary
+
+| Member              | Main Responsibility                      | Files                                                      | Commit               |
+| ------------------- | ---------------------------------------- | ---------------------------------------------------------- | -------------------- |
+| @aaronsalunga098-ai | HTML structure and initial project setup | `index.html`, `quests.html`, `habits.html`, `rewards.html` | `0f0f3c8`, `2357ff0` |
+| @FrancisAlfonso27   | CSS and visual design                    | `style.css`                                                | `f32844e`            |
+| @JoshuaManiego      | JavaScript functionality                 | `script.js`                                                | `f32844e`            |
