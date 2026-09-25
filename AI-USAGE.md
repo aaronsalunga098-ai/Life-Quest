@@ -226,7 +226,7 @@ I understand how IDs and containers such as `current-xp`, `player-level`, `strea
 
 ### CSS and Visual Design
 
-**File:** `style.css`
+**File:** `styles.css`
 
 **Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
 
