@@ -268,11 +268,23 @@ I understand how the CSS rules combine to create responsive and interactive visu
 
 ### My Contribution
 
-<!-- Joshua will write his own explanation here. -->
+I wrote the core JavaScript functionality in `script.js` that powers the gamification mechanics, state management, and interactivity of LifeQuest.
+
+My work includes:
+* **State Management & Local Storage:** Implemented persistent state management using `localStorage` (`lifeQuestState`) to store user XP, level, streak count, last active date, quests, habits, badges, and recent achievements across browser sessions.
+* **Gamification Logic & Progression:** Developed algorithms to calculate player levels and dynamic ranks (ranging from "Novice" to "Mythic") based on accumulated XP. Managed daily active streaks and automatically triggered badge unlocks based on completed quests, habit streaks, and level milestones.
+* **Dynamic UI Rendering:** Created rendering functions (`updateUI`, `renderHomeQuests`, `renderAchievements`, `renderQuestsPage`, `renderHabitsPage`, `renderRewardsPage`) that dynamically update the DOM to reflect real-time changes in player statistics, active/completed quests, habit matrices, and badge statuses.
+* **Event Handling & CRUD Operations:** Built form submission listeners and global window functions (`completeQuest`, `deleteQuest`, `completeHabit`, `deleteHabit`) to allow users to add, filter, complete, and delete quests and daily habits dynamically.
 
 ### AI-Assisted Code I Understand
 
-<!-- Joshua will write his own explanation here. -->
+**File:** `script.js`
+
+**Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
+
+I understand how the JavaScript logic handles data flow and DOM manipulation:
+* **Array Methods:** Using high-order array methods like `.filter()`, `.map()`, `.reduce()`, `.slice()`, and `.find()` to manage and query quests, habits, and badges efficiently.
+* **Date Manipulation:** Calculating the difference in days between `lastActiveDate` and the current date to accurately increment or reset daily streaks.
 
 ---
 
