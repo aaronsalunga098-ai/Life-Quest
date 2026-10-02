@@ -234,7 +234,7 @@ IDs such as `current-xp`, `player-level`, and `streak-count` allow JavaScript to
 
 **File:** `styles.css`
 
-**Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
+**Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e#diff-380b7b38760dd442e897eb0164c58f6a17da966ccaca6318017a468c163979b1)
 
 ### My Contribution
 
@@ -250,7 +250,7 @@ My work includes:
 
 **File:** `styles.css`
 
-**Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
+**Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e#diff-380b7b38760dd442e897eb0164c58f6a17da966ccaca6318017a468c163979b1)
 
 I understand how the CSS rules combine to create responsive and interactive visual elements
 * **Flexbox and Grid Layouts:** Using CSS Flexbox (`display: flex`) for alignment in the navigation bar and quest items, and CSS Grid (`display: grid`) for the statistics grid (`.stats-grid`) and badge layouts (`.badge-grid`).
