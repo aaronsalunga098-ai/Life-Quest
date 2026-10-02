@@ -238,7 +238,7 @@ IDs such as `current-xp`, `player-level`, and `streak-count` allow JavaScript to
 
 ### My Contribution
 
-I designed and implemented the entire visual style and layout for LifeQuest in `style.css` to give the application an immersive, gamified RPG look and feel. 
+I designed and implemented the entire visual style and layout for LifeQuest in `styles.css` to give the application an immersive, gamified RPG look and feel. 
 
 My work includes:
 * **Themed Color Palette & Typography:** Configured a dark fantasy aesthetic using deep dark purple/slate backgrounds. Applied gold accents and vibrant purple gradients combined with Google Fonts (`Cinzel` for headings and `Inter` for body text).
