@@ -232,7 +232,7 @@ IDs such as `current-xp`, `player-level`, and `streak-count` allow JavaScript to
 
 ### CSS and Visual Design
 
-**File:** `style.css`
+**File:** `styles.css`
 
 **Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
 
@@ -248,7 +248,7 @@ My work includes:
 
 ### AI-Assisted Code I Understand
 
-**File:** `style.css`
+**File:** `styles.css`
 
 **Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
 
