@@ -241,9 +241,9 @@ IDs such as `current-xp`, `player-level`, and `streak-count` allow JavaScript to
 I designed and implemented the entire visual style and layout for LifeQuest in `style.css` to give the application an immersive, gamified RPG look and feel[cite: 6]. 
 
 My work includes:
-* **Themed Color Palette & Typography:** Configured a dark fantasy aesthetic using deep dark purple/slate backgrounds (`#100d1c`)[cite: 6]. Applied gold accents (`#f0b93d`)[cite: 6] and vibrant purple gradients[cite: 6] combined with Google Fonts (`Cinzel` for headings and `Inter` for body text)[cite: 6].
-* **Component Styling:** Designed custom components such as the sticky navigation bar[cite: 6], game panel cards with glowing gold top borders (`.card::before`)[cite: 6], form inputs with focus states[cite: 6], and primary glowing buttons (`.btn-primary`)[cite: 6].
-* **Gamification Elements:** Styled the player overview section (including the avatar container, level/rank display, and custom XP progress bar with glowing gold gradients)[cite: 6]. Styled dynamic quest and habit list items with hover transitions and completed states[cite: 6], statistic boxes[cite: 6], and responsive badge grids with locked/grayscale and earned gold-glow effects[cite: 6].
+* **Themed Color Palette & Typography:** Configured a dark fantasy aesthetic using deep dark purple/slate backgrounds. Applied gold accents and vibrant purple gradients[cite: 6] combined with Google Fonts (`Cinzel` for headings and `Inter` for body text).
+* **Component Styling:** Designed custom components such as the sticky navigation bar, game panel cards with glowing gold top borders (`.card::before`), form inputs with focus states[cite: 6], and primary glowing buttons (`.btn-primary`).
+* **Gamification Elements:** Styled the player overview section (including the avatar container, level/rank display, and custom XP progress bar with glowing gold gradients)[cite: 6]. Styled dynamic quest and habit list items with hover transitions and completed states, statistic boxes, and responsive badge grids with locked/grayscale and earned gold-glow effects.
 * **Responsiveness:** Added media queries to ensure the navigation bar, stats grid, and card layouts adapt smoothly to mobile devices and smaller screens[cite: 6].
 
 ### AI-Assisted Code I Understand
@@ -252,9 +252,9 @@ My work includes:
 
 **Commit:** [f32844e - Add files via upload](https://github.com/aaronsalunga098-ai/Life-Quest/commit/f32844e)
 
-I understand how the CSS rules combine to create responsive and interactive visual elements[cite: 6]:
-* **Flexbox and Grid Layouts:** Using CSS Flexbox (`display: flex`) for alignment in the navigation bar and quest items[cite: 6], and CSS Grid (`display: grid`) for the statistics grid (`.stats-grid`) and badge layouts (`.badge-grid`)[cite: 6].
-* **Visual Transitions & Pseudo-elements:** Utilizing pseudo-elements like `::before` for the decorative gold top border on cards[cite: 6] and CSS transitions (`transition: transform 0.15s ease`) for smooth hover animations and card lifts[cite: 6].
+I understand how the CSS rules combine to create responsive and interactive visual elements
+* **Flexbox and Grid Layouts:** Using CSS Flexbox (`display: flex`) for alignment in the navigation bar and quest items[cite: 6], and CSS Grid (`display: grid`) for the statistics grid (`.stats-grid`) and badge layouts (`.badge-grid`).
+* **Visual Transitions & Pseudo-elements:** Utilizing pseudo-elements like `::before` for the decorative gold top border on cards[cite: 6] and CSS transitions (`transition: transform 0.15s ease`) for smooth hover animations and card lifts.
 
 ---
 
