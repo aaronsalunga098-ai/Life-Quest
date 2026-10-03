@@ -2,7 +2,7 @@
 
 [![Made with AI](https://img.shields.io/badge/Made_with-AI_assistance-blue)](AI-USAGE.md)
 
-> Built with assistance from **ChatGPT** and **Claude** (approx. **70% AI-generated / 30% human-written**).
+> Built with assistance from **ChatGPT** and **Claude** and **Gemini Pro** (approx. **70% AI-generated / 30% human-written**).
 > See our full disclosure in (https://github.com/aaronsalunga098-ai/Life-Quest/blob/main/AI-USAGE.md)
 
 ## My project repository
