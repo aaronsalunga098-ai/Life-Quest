@@ -68,7 +68,7 @@ LifeQuest is built using HTML, CSS, and JavaScript, with each page connected thr
 
 ## Presentation
 
-- Video (public Google Drive link): https://...
+- Video (public Google Drive link): [https://drive.google.com/drive/folders/1BCFvXGcKQD5NjgGUlVHMaKo13Mn58Rb7?usp=sharing]
 - Slides (link or PDF): [https://canva.link/o742aqzysm0mclk]
 - Square image: [https://canva.link/k8wi2fhpkha6dm7]
 
